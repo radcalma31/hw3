@@ -1,0 +1,29 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!--<div class="container">
+        <h1>Weather Dashboard</h1>
+        <input type="text" id="location" placeholder="Enter Location">
+        <button id="submitBtn">Get Weather</button>
+        <div id="weatherInfo"></div>
+    </div>-->
+    
+    <h1>Weather Dashboard</h1>
+    <form id="weatherForm">
+    	<label for="city">Enter city name:</label>
+    	<input type="text" id="city" name="city" required>
+    	<button type="submit">Submit</button>
+    </form>
+    <div id="weatherInfo"></div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
+
