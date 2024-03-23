@@ -19,3 +19,9 @@
 # Step 2: Enter any city name
 # Step 3: Click Submit
 # Result: Temperature, weather, wind speed, humidity, sunrise time, and sunset time will be displayed.
+
+# GROUP MEMBERS' CONTRIBUTION
+# Front End: Rad and Jem
+# Back End: Rad and Jem
+# Dockerfile: Jem
+# README documentation: Rad
